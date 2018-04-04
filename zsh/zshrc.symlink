@@ -41,3 +41,9 @@ done
 unset config_files
 
 [ -s "$HOME/.scm_breeze/scm_breeze.sh" ] && source "$HOME/.scm_breeze/scm_breeze.sh"
+
+[ -s "/Users/derek/.scm_breeze/scm_breeze.sh" ] && source "/Users/derek/.scm_breeze/scm_breeze.sh"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/derek/.sdkman"
+[[ -s "/Users/derek/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/derek/.sdkman/bin/sdkman-init.sh"
